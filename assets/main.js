@@ -93,3 +93,14 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const mobileNavBtn = document.getElementById('mobile-nav-btn');
+  const mobileNav = document.getElementById('mobile-nav');
+
+  // Ajouter un écouteur d'événement de clic à l'élément du menu burger
+  mobileNavBtn.addEventListener('click', function() {
+    // Basculer la classe "active" pour afficher ou masquer le menu mobile
+    mobileNav.classList.toggle('active');
+  });
+});
