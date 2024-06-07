@@ -460,12 +460,13 @@ code {
   position: fixed;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
+  width: 90%; /* Ajustez la largeur pour les petits écrans */
   z-index: 10;
+  max-height: 80%; /* Limitez la hauteur pour éviter les dépassements */
+  overflow-y: auto; /* Ajoutez un défilement si le contenu dépasse la hauteur maximale */
 }
 
 .modal__overlay {
-  background-color: #000;
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
   left: 0;
@@ -506,4 +507,20 @@ code {
   margin-left: 1rem;
 }
 
+@media (max-width: 768px) {
+  .modal__body {
+    width: 90%; /* Ajustez la largeur pour les petits écrans */
+    padding: 10px; /* Réduisez le padding pour plus de place */
+  }
+
+  .modal__close {
+    font-size: 0.875rem; /* Ajustez la taille du texte */
+    padding: 8px; /* Réduisez le padding du bouton */
+  }
+
+  .modal-toggle {
+    font-size: 0.875rem; /* Ajustez la taille du texte */
+    padding: 8px; /* Réduisez le padding du bouton */
+  }
+}
 
