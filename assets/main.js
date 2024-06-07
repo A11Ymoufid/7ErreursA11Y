@@ -30,7 +30,6 @@
     // Show the modal and overlay
     modal.style.display = 'block';
     modalOverlay.style.display = 'block';
-    document.body.classList.add('no-scroll'); // Disable body scroll
 
     modalLabel.focus();
 
@@ -68,7 +67,6 @@
     if (modal && modalOverlay) {
       modal.style.display = 'none';
       modalOverlay.style.display = 'none';
-      document.body.classList.remove('no-scroll'); // Enable body scroll
       // Return focus to the element that had focus before the modal opened
       if (priorFocus) {
         priorFocus.focus();
