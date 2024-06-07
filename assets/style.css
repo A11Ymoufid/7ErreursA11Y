@@ -524,3 +524,6 @@ code {
   }
 }
 
+.no-scroll {
+  overflow: hidden;
+}
