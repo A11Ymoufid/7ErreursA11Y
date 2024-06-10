@@ -142,6 +142,7 @@ li a[title^="Aller à la note de bas de page"] sup {
   margin-right: auto;
   margin-left: auto;
   margin-top: 3rem;
+  margin-bottom: 3rem;
   border-radius: 10px;
   box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
 }
@@ -204,8 +205,6 @@ li a[title^="Aller à la note de bas de page"] sup {
   max-width: 100%;
   height: auto;
 }
-
-
 
 .section .img__container {
   display: none;
