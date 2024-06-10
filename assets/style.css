@@ -135,20 +135,31 @@ li a[title^="Aller à la note de bas de page"] sup {
   color: inherit;
 }
 
-/* p a[title^="Aller à la note de bas de page"]:focus {
-  outline: thin dotted;
-  outline-offset: 2px;
-} */
-/* 
-[aria-label="Retour à la note 1"],
-[aria-label="Retour à la note 2"],
-[aria-label="Retour à la note 3"] {
-  font-size: 0.8em;
-}  */
+.errors {
+  max-width: 80%;
+  border: #d8264f solid 2px;
+  padding : 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3rem;
+  border-radius: 10px;
+  box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
 
-/* /* footer :target {
-  background: yellow;
-} */
+#les_erreurs{
+  color: #d8264f;
+}
+
+
+.notebdp {
+  margin-top: 50px;
+  border-top: 1px solid silver;
+  font-size: 0.8em;
+}
+
+.notebdp ol {
+  margin-top: 1rem;
+}
 
 .visually-hidden {
   position: absolute;
@@ -189,9 +200,12 @@ li a[title^="Aller à la note de bas de page"] sup {
 }
 
 .section .img__container img {
+  width: 20%;
   max-width: 100%;
   height: auto;
 }
+
+
 
 .section .img__container {
   display: none;
@@ -259,11 +273,14 @@ body .home form .form-group .label {
 
 body .home form .form-group input {
   background: #ffffff;
-  padding: 10px 15px;
-  max-width: auto;
-  border: 1px solid #cccccc;
+  padding: 0.75rem 1rem; /* Ajout de padding pour une meilleure ergonomie */
+  width: 100%; /* Assure que l'input prend toute la largeur disponible */
+  max-width: 15rem; /* Empêche l'input de dépasser la largeur de son conteneur */
+  border: 1px solid #ccc; /* Utilisation d'une couleur de bordure plus douce */
   border-radius: 4px;
-  /* margin-top: 0.75rem; */
+  box-sizing: border-box; /* Assure que padding et border sont inclus dans la largeur totale */
+  margin-top: 0.75rem; /* Espace entre les éléments */
+  transition: border-color 0.3s;
 }
 
 body .home form .form-group button {
@@ -309,7 +326,7 @@ body .footer {
   /* text-align: center; */
   margin-top: 2rem;
   padding-top: 2rem;
-  border-top: 1px solid silver;
+  /* border-top: 1px solid silver; */
   font-size: 0.8em;
 }
 
@@ -401,6 +418,8 @@ body .footer .Ccopyright {
     max-width: 15rem;
     max-height: 15rem;
   }
+
+  
 }
 @media only screen and (min-width: 1024px) {
   body {
@@ -447,10 +466,11 @@ code {
 
 .modal {
   position: relative;
-}
+ }
 
 .modal__body {
   background-color: #fff;
+  max-width: 60%;
   border-radius: 4px;
   display: none;
   left: 50%;
@@ -466,6 +486,10 @@ code {
   overflow-y: auto; /* Ajoutez un défilement si le contenu dépasse la hauteur maximale */
 }
 
+/* .modal__body .ul2{
+  margin-left: 1rem;
+} */
+
 .modal__overlay {
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
@@ -477,6 +501,7 @@ code {
   top: 0;
   width: 100%;
   z-index: 5;
+  overflow: hidden;
 }
 
 .modal h1 {
@@ -524,3 +549,25 @@ code {
   }
 }
 
+#les_erreurs {
+  text-align: center;
+}
+
+.form-link {
+  margin-top: 1rem;
+  /* text-align: center; */
+}
+
+.form-link p {
+  margin-bottom: 0.5rem;
+}
+
+.form-link a {
+  color: #d8264f;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.form-link a:hover {
+  color: #a81a3f;
+}

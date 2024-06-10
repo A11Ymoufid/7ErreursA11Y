@@ -33,6 +33,9 @@
 
     modalLabel.focus();
 
+    // Disable scrolling of the body
+    document.body.style.overflow = 'hidden';
+
     function keydownEvent(e) {
       // Escape key should close the modal
       if (e.key === 'Escape') {
@@ -71,6 +74,9 @@
       if (priorFocus) {
         priorFocus.focus();
       }
+
+      // Restore scrolling of the body
+      document.body.style.overflow = 'auto';
     }
   }
 
@@ -84,7 +90,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
   const links = document.querySelectorAll('.social .ul a');
-  
+
   links.forEach(function(link) {
       link.addEventListener("click", function (event) {
           event.preventDefault(); // Empêcher la redirection par défaut
