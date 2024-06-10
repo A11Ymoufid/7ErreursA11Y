@@ -214,7 +214,7 @@ p.bullet {
   margin-top: 0.7rem;
   margin-left: 1rem;
   color: #7c7c7c;
-  text-align: justify;
+  /* text-align: justify; */
   font-size: 0.9rem;
 }
 
