@@ -418,6 +418,10 @@ body .footer .Ccopyright {
     max-height: 15rem;
   }
 
+  .errors {
+    padding: 3rem;
+  }
+
   
 }
 @media only screen and (min-width: 1024px) {
