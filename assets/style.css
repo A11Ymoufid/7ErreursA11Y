@@ -161,6 +161,7 @@ li a[title^="Aller à la note de bas de page"] sup {
 
 .notebdp ol {
   margin-top: 1rem;
+  margin-left: 0.6rem;
 }
 
 .visually-hidden {
