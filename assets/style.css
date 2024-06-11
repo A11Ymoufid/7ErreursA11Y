@@ -201,7 +201,7 @@ li a[title^="Aller à la note de bas de page"] sup {
 }
 
 .section .img__container img {
-  width: 20%;
+  width: 40%;
   max-width: 100%;
   height: auto;
 }
