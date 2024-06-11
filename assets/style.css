@@ -4,7 +4,7 @@
   padding: 0;
   font-family: "Nunito Sans", sans-serif;
   box-sizing: border-box;
-  font-size: 1.1rem;
+  font-size: 18px;
 }
 
 body {
@@ -216,7 +216,7 @@ p.bullet {
   margin-left: 1rem;
   color: #7c7c7c;
   /* text-align: justify; */
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
 }
 
 
@@ -229,7 +229,7 @@ p.Cbullet {
 .ul2 {
   margin-top: 0.5rem;
   margin-left: 4rem;
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
   color: #7c7c7c;
 }
 
@@ -459,7 +459,7 @@ body .footer .Ccopyright {
 /* Style pour les balises <code> */
 code {
   font-family: "Courier New", monospace;
-  font-size: 14px;
+  /* font-size: 14px; */
   background-color: #f4f4f4;
   padding: 2px 4px;
   border: 1px solid #ccc;
