@@ -264,6 +264,8 @@ body .home .stats img {
   border: 1px solid #cccccc;
 }
 
+
+
 body .home form .form-group {
   margin-top: 2rem;
 }
@@ -440,10 +442,10 @@ body .footer .Ccopyright {
   align-items: center;
 }
 
-.section3 img {
+/* .section3 img {
   max-width: 40rem;
   max-height: 40rem;
-}
+} */
 
 .capture {
   margin-top: 1rem;
@@ -575,4 +577,14 @@ code {
 
 .form-link a:hover {
   color: #a81a3f;
+}
+
+.img__info {
+  max-width: 100%;
+ 
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  height: auto;
+  margin-left: 1rem;
+  border: 1px solid #cccccc;
 }
