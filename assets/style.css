@@ -580,7 +580,7 @@ code {
   max-width: 100%;
  
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  
   height: auto;
   margin-left: 1rem;
   border: 1px solid #cccccc;
@@ -589,4 +589,14 @@ code {
 #infography {
   max-width: 40rem;
   max-height: 40rem;
+}
+
+figure{
+  margin-bottom: 2rem;
+}
+
+figcaption {
+  margin-left: 1rem;
+  font-size: 0.7rem;
+  font-style: italic;
 }
