@@ -442,10 +442,7 @@ body .footer .Ccopyright {
   align-items: center;
 }
 
-/* .section3 img {
-  max-width: 40rem;
-  max-height: 40rem;
-} */
+
 
 .capture {
   margin-top: 1rem;
@@ -587,4 +584,9 @@ code {
   height: auto;
   margin-left: 1rem;
   border: 1px solid #cccccc;
+}
+
+#infography {
+  max-width: 40rem;
+  max-height: 40rem;
 }
