@@ -92,6 +92,34 @@ body .home .section {
   margin-top: 3rem;
 }
 
+body .skiplink .nav__tier--1 {
+  list-style: none;
+}
+body .skiplink a:focus {
+  background-color: black;
+  color: white;
+  outline: 3px solid black;
+}
+body .skiplink .hide-text a {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+body .skiplink .hide-text a:focus {
+  position: relative;
+  overflow: visible;
+  clip: auto;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 .seven {
   font-weight: bold;
   font-size: 130%;
@@ -426,6 +454,10 @@ body .footer .Ccopyright {
     padding: 3rem;
   }
 
+  .plan_du_site {
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
   
 }
 @media only screen and (min-width: 1024px) {
