@@ -365,6 +365,10 @@ body .footer {
   text-align: center;
 }
 
+.plan_du_site {
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
 body .footer ol {
   padding-left: 20px;
 }
@@ -454,10 +458,7 @@ body .footer .Ccopyright {
     padding: 3rem;
   }
 
-  .plan_du_site {
-    margin-top: 2rem;
-    margin-left: 3rem;
-  }
+
   
 }
 @media only screen and (min-width: 1024px) {
@@ -609,13 +610,13 @@ code {
 }
 
 .img__info {
-  max-width: 100%;
+  max-width: 70%;
  
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   
   height: auto;
-  margin-left: 1rem;
-  border: 1px solid #cccccc;
+  /* margin-left: 1rem; */
+  border: 1px solid #3a3a3a;
 }
 
 #infography {
@@ -628,8 +629,9 @@ figure{
 }
 
 figcaption {
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   font-size: 0.9rem;
   font-weight: 600;
   font-style: italic;
+  max-width: 100vh;
 }
