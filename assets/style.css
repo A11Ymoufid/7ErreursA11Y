@@ -597,6 +597,7 @@ figure{
 
 figcaption {
   margin-left: 1rem;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 600;
   font-style: italic;
 }
